@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#review-form, #products-container, #reviews-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#review-form, #products-container, #reviews-container, #product-name, #review-text {
+    width: 60%;
+    margin: 0 auto;
+    resize: none;
+}
+
+#product-name, #review-text {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#review-text {
+    height: 100px;
+}
+
+#submit-review, #view-reviews, #add-review {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+#submit-review:hover, #view-reviews:hover, #add-review:hover {
+    background-color: #45a049;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+.review-name {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 5px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    
+    
+}
+.product-item, .review-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.product-item{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.product-item:hover {
+    background-color: darkgrey;
+}
+button.delete-review {
+    padding: 10px 20px;
+    margin-top: 5px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.delete-review:hover {
+    background-color: #ff1a1a;
+}
